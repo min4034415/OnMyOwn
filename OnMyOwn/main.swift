@@ -157,3 +157,38 @@ for member in myfamily2.members {
 
 [< Previous](@previous)           [Home](Introduction)           [Next >](@next)
 */
+
+
+struct ColorPalette: Decodable {
+    struct ParletteColor: Decodable {
+        let sort_order: Int
+        let description: String
+        let red: Int
+        let green: Int
+        let blue: Int
+        let alpha: Double
+    }
+    let parlette_name: String
+    let parlette_info: String
+    let parlette_colors: [ParletteColor]
+}
+
+print(Bundle.main.url(forResource: "FlatColors", withExtension: "json"))
+
+guard let sourceURL = Bundle.main.url(forResource: "FlatColors", withExtension: "json") else {
+    fatalError("Couldn't find FlatColors.json in bundle.")
+}
+print(sourceURL)
+
+guard let colorData = try? Data(contentsOf: sourceURL) else {
+    fatalError("Couldn't read data from URL.")
+}
+//print(colorData)
+guard let flatColors = try? decoder.decode(ColorPalette.self, from: colorData) else {
+    fatalError( "Couldn't decode JSON into ColorPalette.")
+}
+//
+//print(flatColors.parlette_name)
+
+
+
