@@ -160,7 +160,7 @@ for member in myfamily2.members {
 
 
 struct ColorPalette: Decodable {
-    struct ParletteColor: Decodable {
+    struct PaletteColor: Decodable {
         let sort_order: Int
         let description: String
         let red: Int
@@ -168,12 +168,12 @@ struct ColorPalette: Decodable {
         let blue: Int
         let alpha: Double
     }
-    let parlette_name: String
-    let parlette_info: String
-    let parlette_colors: [ParletteColor]
+    let palette_name: String
+    let palette_info: String
+    let palette_colors: [PaletteColor]
 }
 
-print(Bundle.main.url(forResource: "FlatColors", withExtension: "json"))
+print(Bundle.main.url(forResource: "FlatColors", withExtension: "json") ?? "HIJA")
 
 guard let sourceURL = Bundle.main.url(forResource: "FlatColors", withExtension: "json") else {
     fatalError("Couldn't find FlatColors.json in bundle.")
@@ -188,7 +188,11 @@ guard let flatColors = try? decoder.decode(ColorPalette.self, from: colorData) e
     fatalError( "Couldn't decode JSON into ColorPalette.")
 }
 //
-//print(flatColors.parlette_name)
+print(flatColors)
+print(flatColors.palette_name)
 
+for color in flatColors.palette_colors {
+    print(color.description)
+}
 
 
