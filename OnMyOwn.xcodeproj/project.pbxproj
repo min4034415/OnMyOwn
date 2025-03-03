@@ -6,6 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D6402D172D6C389B00773549 /* 2_DecodingDatesAndStuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6402D152D6C389B00773549 /* 2_DecodingDatesAndStuff.swift */; };
+		D6402D182D6C389B00773549 /* 1_SwiftDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6402D162D6C389B00773549 /* 1_SwiftDecodable.swift */; };
+		D6402D222D6C82AD00773549 /* 4_6. JSON - Custom CodingKeys- Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6402D212D6C82AD00773549 /* 4_6. JSON - Custom CodingKeys- Swift.swift */; };
+		D6402D242D6C89ED00773549 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6402D232D6C89ED00773549 /* main.swift */; };
+		D6402D272D6C8C9D00773549 /* 3_UsingCamelCaseAndChangingName.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6402D262D6C8C9D00773549 /* 3_UsingCamelCaseAndChangingName.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		D63D2F7C2D5DFCD30044099E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -20,6 +28,11 @@
 
 /* Begin PBXFileReference section */
 		D63D2F7E2D5DFCD30044099E /* OnMyOwn */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OnMyOwn; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6402D152D6C389B00773549 /* 2_DecodingDatesAndStuff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2_DecodingDatesAndStuff.swift; sourceTree = "<group>"; };
+		D6402D162D6C389B00773549 /* 1_SwiftDecodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1_SwiftDecodable.swift; sourceTree = "<group>"; };
+		D6402D212D6C82AD00773549 /* 4_6. JSON - Custom CodingKeys- Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4_6. JSON - Custom CodingKeys- Swift.swift"; sourceTree = "<group>"; };
+		D6402D232D6C89ED00773549 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D6402D262D6C8C9D00773549 /* 3_UsingCamelCaseAndChangingName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3_UsingCamelCaseAndChangingName.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -44,6 +57,11 @@
 		D63D2F752D5DFCD30044099E = {
 			isa = PBXGroup;
 			children = (
+				D6402D162D6C389B00773549 /* 1_SwiftDecodable.swift */,
+				D6402D152D6C389B00773549 /* 2_DecodingDatesAndStuff.swift */,
+				D6402D212D6C82AD00773549 /* 4_6. JSON - Custom CodingKeys- Swift.swift */,
+				D6402D262D6C8C9D00773549 /* 3_UsingCamelCaseAndChangingName.swift */,
+				D6402D232D6C89ED00773549 /* main.swift */,
 				D63D2F802D5DFCD30044099E /* OnMyOwn */,
 				D63D2F7F2D5DFCD30044099E /* Products */,
 			);
@@ -121,6 +139,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6402D172D6C389B00773549 /* 2_DecodingDatesAndStuff.swift in Sources */,
+				D6402D242D6C89ED00773549 /* main.swift in Sources */,
+				D6402D272D6C8C9D00773549 /* 3_UsingCamelCaseAndChangingName.swift in Sources */,
+				D6402D182D6C389B00773549 /* 1_SwiftDecodable.swift in Sources */,
+				D6402D222D6C82AD00773549 /* 4_6. JSON - Custom CodingKeys- Swift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
