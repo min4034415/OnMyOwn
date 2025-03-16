@@ -9,9 +9,10 @@
 /* Begin PBXBuildFile section */
 		D6402D172D6C389B00773549 /* 2_DecodingDatesAndStuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6402D152D6C389B00773549 /* 2_DecodingDatesAndStuff.swift */; };
 		D6402D182D6C389B00773549 /* 1_SwiftDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6402D162D6C389B00773549 /* 1_SwiftDecodable.swift */; };
-		D6402D222D6C82AD00773549 /* 4_6. JSON - Custom CodingKeys- Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6402D212D6C82AD00773549 /* 4_6. JSON - Custom CodingKeys- Swift.swift */; };
-		D6402D242D6C89ED00773549 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6402D232D6C89ED00773549 /* main.swift */; };
+		D6402D222D6C82AD00773549 /* 4_JSON - Custom CodingKeys- Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6402D212D6C82AD00773549 /* 4_JSON - Custom CodingKeys- Swift.swift */; };
+		D6402D242D6C89ED00773549 /* 5_JSON from API - Swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = D6402D232D6C89ED00773549 /* 5_JSON from API - Swift .swift */; };
 		D6402D272D6C8C9D00773549 /* 3_UsingCamelCaseAndChangingName.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6402D262D6C8C9D00773549 /* 3_UsingCamelCaseAndChangingName.swift */; };
+		D6B722302D79A2F900D2EAE5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B7222F2D79A2F900D2EAE5 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,9 +31,12 @@
 		D63D2F7E2D5DFCD30044099E /* OnMyOwn */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OnMyOwn; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6402D152D6C389B00773549 /* 2_DecodingDatesAndStuff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2_DecodingDatesAndStuff.swift; sourceTree = "<group>"; };
 		D6402D162D6C389B00773549 /* 1_SwiftDecodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1_SwiftDecodable.swift; sourceTree = "<group>"; };
-		D6402D212D6C82AD00773549 /* 4_6. JSON - Custom CodingKeys- Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4_6. JSON - Custom CodingKeys- Swift.swift"; sourceTree = "<group>"; };
-		D6402D232D6C89ED00773549 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D6402D212D6C82AD00773549 /* 4_JSON - Custom CodingKeys- Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4_JSON - Custom CodingKeys- Swift.swift"; sourceTree = "<group>"; };
+		D6402D232D6C89ED00773549 /* 5_JSON from API - Swift .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "5_JSON from API - Swift .swift"; sourceTree = "<group>"; };
 		D6402D262D6C8C9D00773549 /* 3_UsingCamelCaseAndChangingName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3_UsingCamelCaseAndChangingName.swift; sourceTree = "<group>"; };
+		D6B7222F2D79A2F900D2EAE5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D6B722312D7A7DD800D2EAE5 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D6FF74932D866AF900C92701 /* 8. Encoding data - Swift.xcplaygroundpage */ = {isa = PBXFileReference; lastKnownFileType = file.xcplaygroundpage; name = "8. Encoding data - Swift.xcplaygroundpage"; path = "MyPlayground.playground/Pages/8. Encoding data - Swift.xcplaygroundpage"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -57,11 +61,14 @@
 		D63D2F752D5DFCD30044099E = {
 			isa = PBXGroup;
 			children = (
+				D6B722312D7A7DD800D2EAE5 /* MyPlayground.playground */,
 				D6402D162D6C389B00773549 /* 1_SwiftDecodable.swift */,
 				D6402D152D6C389B00773549 /* 2_DecodingDatesAndStuff.swift */,
-				D6402D212D6C82AD00773549 /* 4_6. JSON - Custom CodingKeys- Swift.swift */,
 				D6402D262D6C8C9D00773549 /* 3_UsingCamelCaseAndChangingName.swift */,
-				D6402D232D6C89ED00773549 /* main.swift */,
+				D6B7222F2D79A2F900D2EAE5 /* main.swift */,
+				D6402D212D6C82AD00773549 /* 4_JSON - Custom CodingKeys- Swift.swift */,
+				D6402D232D6C89ED00773549 /* 5_JSON from API - Swift .swift */,
+				D6FF74932D866AF900C92701 /* 8. Encoding data - Swift.xcplaygroundpage */,
 				D63D2F802D5DFCD30044099E /* OnMyOwn */,
 				D63D2F7F2D5DFCD30044099E /* Products */,
 			);
@@ -140,10 +147,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6402D172D6C389B00773549 /* 2_DecodingDatesAndStuff.swift in Sources */,
-				D6402D242D6C89ED00773549 /* main.swift in Sources */,
+				D6B722302D79A2F900D2EAE5 /* main.swift in Sources */,
+				D6402D242D6C89ED00773549 /* 5_JSON from API - Swift .swift in Sources */,
 				D6402D272D6C8C9D00773549 /* 3_UsingCamelCaseAndChangingName.swift in Sources */,
 				D6402D182D6C389B00773549 /* 1_SwiftDecodable.swift in Sources */,
-				D6402D222D6C82AD00773549 /* 4_6. JSON - Custom CodingKeys- Swift.swift in Sources */,
+				D6402D222D6C82AD00773549 /* 4_JSON - Custom CodingKeys- Swift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
